@@ -22,6 +22,7 @@ class ComposerStaticInit1c75da093cc10cbff5032164aedec9a4
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
             'PHPStan\\PhpDocParser\\' => 21,
@@ -29,6 +30,10 @@ class ComposerStaticInit1c75da093cc10cbff5032164aedec9a4
         'N' => 
         array (
             'Nabil\\MVC\\' => 10,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'D' => 
         array (
@@ -49,6 +54,10 @@ class ComposerStaticInit1c75da093cc10cbff5032164aedec9a4
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
@@ -65,6 +74,10 @@ class ComposerStaticInit1c75da093cc10cbff5032164aedec9a4
         array (
             0 => __DIR__ . '/../..' . '/app',
             1 => __DIR__ . '/../..' . '/test',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
